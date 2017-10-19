@@ -1,5 +1,5 @@
-FROM nginx:1.13
-MAINTAINER Jason Wilder mail@jasonwilder.com
+FROM nginx:1.13.5
+MAINTAINER Hao Zong QI cycloneqi@126.com
 
 # Install wget and install/updates certificates
 RUN apt-get update \
